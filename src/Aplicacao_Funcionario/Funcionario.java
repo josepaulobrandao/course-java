@@ -66,11 +66,12 @@ public class Funcionario {
 		return bonus * 1.5;
 	}
 	
-	public  int calcularIdade(data_nascimento  data_nascimento) {
-		Calendar c = Calendar.getInstance();
-
+	public void calcularIdade () {
+		Calendar cal = Calendar.getInstance();
+	}
+ 	
+	public void complementaEndereco() {
 		
 	}
-	
-	return 
+
 }
