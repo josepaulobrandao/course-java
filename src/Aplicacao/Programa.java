@@ -23,16 +23,17 @@ public class Programa {
 		System.out.println("Entre com o endereco: ");
 		String complementaEndereco = scanner.nextLine();
 		scanner.nextLine();
+		System.out.println("Entre com o bonus");
+		Double bonus = scanner.nextDouble();
 		System.out.println("Ano nascimento: ");
 	
 		Double calcularIdade = scanner.nextDouble();
 		
 		
-		
 		System.out.println("Nome: " + nome);
-		System.out.println("Salario: " + salario);
+		System.out.println("Bonus: " + bonus);
 		System.out.println("Complementa Endereço: " + complementaEndereco);
-		System.out.println("idade real é " +  func.getData_nascimento());
+	
 		scanner.close();
 
 	}
